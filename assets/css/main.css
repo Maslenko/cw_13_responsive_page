@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 600px;
+    background: url(https://cdn.pixabay.com/photo/2019/08/27/18/57/landscape-4434933_1280.jpg) center/cover no-repeat;
+}
+
+section:nth-child(2n) {
+    background-color: grey; 
+}
+
+section:last-child {
+    background-color: darkgreen;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+}
+
+section {
+    box-sizing: border-box; 
+    padding: 100px 50px; 
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto; 
+}
